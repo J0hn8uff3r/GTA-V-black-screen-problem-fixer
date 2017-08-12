@@ -5,7 +5,7 @@ Const ForWriting = 2
 Dim blnRes: blnRes = 0
 Dim wrongStr, goodStr, path
 wrongStr = "<DX_Version value=""2"" />"
-goodStr = "<DX_Version value=""1"" />"
+goodStr = "<DX_Version value=""0"" />"
 path = CreateObject("WScript.Shell").ExpandEnvironmentStrings("%USERPROFILE%") & "\Documents\Rockstar Games\GTA V"
 
 On Error Resume Next
